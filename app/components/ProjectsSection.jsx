@@ -29,7 +29,7 @@ const projectsData = [
     description: "Mobile UI for the Prime Redesign, implementing the roulette used in smaller screens with minor adjustments.",
     image: "/images/primemobile.png",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
+    gitUrl: "https://www.behance.net/gallery/190067137/PRIME-REDESIGN-(MOBILE-VIEW)",
     previewUrl: "/",
   },
   {
