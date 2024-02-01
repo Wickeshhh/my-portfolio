@@ -59,12 +59,11 @@ const TAB_DATA = [
     id: "spoken-languages",
     content: (
       <ul className="list-disc pl-2">
-        <li>English *</li>
-        <li>Hindi *</li>
+        <li>English</li>
+        <li>Hindi</li>
         <li>Tamil</li>
         <li>Telugu</li>
         <li>Malayalam</li>
-        <p>Note: * with written proficiency</p>
       </ul>
     ),
   },
