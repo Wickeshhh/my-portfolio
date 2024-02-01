@@ -51,7 +51,7 @@ const HeroSection = () => {
               href="resume.pdf" passHref target="_blank"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-green-500 mt-3"
             >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 font-semibold">
+              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 font-semibold text-white">
                 My Resume
               </span>
             </Link>
