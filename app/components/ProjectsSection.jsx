@@ -91,7 +91,7 @@ const projectsData = [
     title: "Pharma App",
     description: "Designed a pharmaceutical app interface, which allows to book appointments with doctors and also order medicines online. Online ordering interface very coming soon!",
     image: "/images/pharma-mockup.png",
-    tag: ["Mobile"],
+    tag: ["All", "Mobile"],
     gitUrl: "https://www.behance.net/gallery/191803761/PharmaMedical-App",
     previewUrl: "/",
   }
