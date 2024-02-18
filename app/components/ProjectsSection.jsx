@@ -85,6 +85,15 @@ const projectsData = [
     tag: ["All", "Mobile"],
     gitUrl: "https://www.behance.net/gallery/190073277/Redesigning-Networking-App",
     previewUrl: "/",
+  },
+  {
+    id: 10,
+    title: "Pharma App",
+    description: "Designed a pharmaceutical app interface, which allows to book appointments with doctors and also order medicines online. Online ordering interface very coming soon!",
+    image: "/images/pharma-mockup.png",
+    tag: ["Mobile"],
+    gitUrl: "https://www.behance.net/gallery/191803761/PharmaMedical-App",
+    previewUrl: "/",
   }
 ];
 
