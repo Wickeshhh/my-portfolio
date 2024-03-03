@@ -8,11 +8,11 @@ const projectsData = [
   {
     id: 1,
     title: "Portfolio Design inspiration",
-    description: "Designed a portfolio website for my developer friend. A great experience in bringing it to life! Check the site at https://portfolio-final-saksham.vercel.app",
+    description: "Designed a portfolio website for my developer friend. A great experience in bringing it to life!",
     image: "/images/portfolio-inspiration.png",
     tag: ["All", "Web"],
     gitUrl : "https://www.behance.net/gallery/188762027/PORTFOLIO-DESIGN",
-    previewUrl: "/",
+    previewUrl: "https://portfolio-final-saksham.vercel.app",
   },
   {
     id: 2,

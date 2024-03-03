@@ -1,5 +1,6 @@
 import React from "react";
 import { FaBehance } from "react-icons/fa";
+// import { FaEye } from "react-icons/fa";
 
 import Link from "next/link";
 
@@ -18,7 +19,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
             <FaBehance className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
           </Link>
           {/* <Link
-            href={previewUrl}
+            href={previewUrl} passHref target="_blank"
             className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
           >
             <FaEye className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
