@@ -41,15 +41,15 @@ const projectsData = [
     gitUrl: "https://www.behance.net/gallery/189737849/Travis-Scott-3D-Slide-(howardlee-inspo)",
     previewUrl: "/",
   },
-  // {
-  //   id: 5,
-  //   title: "Sneaker page",
-  //   description: "Authentication and CRUD operations",
-  //   image: "/images/shoes.png",
-  //   tag: ["All", "Mobile"],
-  //   gitUrl: "/",
-  //   previewUrl: "/",
-  // },
+  {
+    id: 5,
+    title: "Virat Kohli - Poster Design",
+    description: "Attempts made towards Poster Designing! Tried to create a poster of the Indian Cricketer, Virat Kohli",
+    image: "/images/viratposter.png",
+    tag: ["All", "Poster"],
+    gitUrl: "https://www.behance.net/gallery/199769559/VIRAT-KOHLI-POSTER-DESIGN-%28GRAYSCALE%29",
+    previewUrl: "/",
+  },
   {
     id: 6,
     title: "ATM Simulation",
@@ -138,6 +138,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Mobile"
           isSelected={tag === "Mobile"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Poster"
+          isSelected={tag === "Poster"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

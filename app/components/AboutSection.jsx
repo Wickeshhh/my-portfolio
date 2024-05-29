@@ -30,18 +30,18 @@ const TAB_DATA = [
       </ul>
     ),
   },
-  // {
-  //   title: "Certifications",
-  //   id: "certifications",
-  //   content: (
-  //     <ul className="list-disc pl-2">
-  //       <li>Add Course 1</li>
-  //       <li>Add Course 1</li>
-  //       <li>Add Course 1</li>
-  //       <li>Add Course 1</li>
-  //     </ul>
-  //   ),
-  // },
+  {
+    title: "Certifications",
+    id: "certifications",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>NPTEL April 2024 - Compiler Design</li>
+        {/* <li>Add Course 1</li>
+        <li>Add Course 1</li>
+        <li>Add Course 1</li> */}
+      </ul>
+    ),
+  },
   {
     title: "Hobbies",
     id: "hobbies",
@@ -126,13 +126,13 @@ const AboutSection = () => {
               {" "}
               Hobbies{" "}
             </TabButton>
-            {/* <TabButton
+            <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
             >
               {" "}
               Certifications{" "}
-            </TabButton> */}
+            </TabButton>
             <TabButton
               selectTab={() => handleTabChange("spoken-languages")}
               active={tab === "spoken-languages"}
