@@ -38,7 +38,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="inline-block text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            UI/UX, XD, Web3 | Chennai, India | Pre-final year undergrad @ SRM
+            UI/UX, XD, Web3 | Chennai, India | Final year undergrad @ SRMIST
           </p>
           <div>
           <Link

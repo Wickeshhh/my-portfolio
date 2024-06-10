@@ -25,8 +25,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>St. Bede's Academy Sr. Secondary School (2014 - 2021)</li>
-        <li>SRM Institute Of Science & Technology, Ramapuram (2021 - 2025)</li>
+        <li>St. Bede's Academy Sr. Secondary School (2014 - 2021) <br />GRADE: 10th - 75.8 | 12th - 84.2</li>
+        <li>SRM Institute Of Science & Technology, Ramapuram (2021 - 2025) <br />GRADE : 8.97</li>
       </ul>
     ),
   },
@@ -36,6 +36,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>NPTEL April 2024 - Compiler Design</li>
+        <li>Fundamentals of UX Design - Google via Coursera</li>
         {/* <li>Add Course 1</li>
         <li>Add Course 1</li>
         <li>Add Course 1</li> */}
@@ -63,7 +64,7 @@ const TAB_DATA = [
         <li>Hindi</li>
         <li>Tamil</li>
         <li>Telugu</li>
-        <li>Malayalam</li>
+        {/* <li>Malayalam</li> */}
       </ul>
     ),
   },
@@ -84,14 +85,16 @@ const AboutSection = () => {
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/images/akhipic2cropped.png"
-          width={500} 
+          width={500}
           height={500}
           alt="about image"
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-green-500 mb-4">About me <span className='text-white'>and</span> what I do</h2>
+          <h2 className="text-4xl font-bold text-green-500 mb-4">
+            About me <span className="text-white">and</span> what I do
+          </h2>
           <p className="text-base lg:text-lg">
-            I'm an undergraduate, currently in my 3rd year at SRMIST Ramapuram, studying Information
+          {/* I'm an undergraduate, currently in my 3rd year at SRMIST Ramapuram, studying Information
             Technology. Over a year of experience in UI/UX; mostly through
             self-study. Prior to UI/UX, I indulged in Python
             Programming at an intermediate level and still do. <br />
@@ -102,7 +105,16 @@ const AboutSection = () => {
             I'm also a Web3 Enthusiast! I actively participate in hackathons and
             conferences taking place looking to learn, network with people,
             gaining valuable insights from every trip. <br />
-            Looking to connect? Active on all my mentioned socials! or drop a message below.
+            Looking to connect? Active on all my mentioned socials! or drop a message below. */}
+            I'm 21 years old.<br />
+            Raised in New Delhi and Chennai and fluent in English, Hindi,
+            Tamil and Telugu. <br />
+            I enjoy sports, coffee and family time on
+            holidays. I'm an active participant in summits, hackathons, meetups. <br />
+            I've been designing for over 2 years.
+            <br />
+            I'm a T-shaped designer, inclining towards Interaction and Visual Design. I'm self taught, looking to
+            always expand my knowledge and converting my insights to solutions.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
