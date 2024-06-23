@@ -26,7 +26,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>St. Bede's Academy Sr. Secondary School (2014 - 2021) <br />GRADE: 10th - 75.8 | 12th - 84.2</li>
-        <li>SRM Institute Of Science & Technology, Ramapuram (2021 - 2025) <br />GRADE : 8.97</li>
+        <li>SRM Institute Of Science & Technology, Ramapuram (2021 - 2025) <br />GRADE : 9.04</li>
       </ul>
     ),
   },
