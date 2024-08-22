@@ -21,7 +21,7 @@ const projectsData = [
     image: "/images/primeredesign.png",
     tag: ["All", "Web"],
     gitUrl: "https://www.behance.net/gallery/190024457/PRIME-REDESIGN-%28drinkprimecom%29",
-    previewUrl: "/",
+    previewUrl: "https://www.figma.com/design/nch4wMxaTJgZHzqDewUbFV/PRIME-REDESIGN?node-id=0-1&t=QEw04xjLIrYh1qHE-1",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const projectsData = [
     image: "/images/primemobile.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://www.behance.net/gallery/190067137/PRIME-REDESIGN-(MOBILE-VIEW)",
-    previewUrl: "/",
+    previewUrl: "https://www.figma.com/design/nch4wMxaTJgZHzqDewUbFV/PRIME-REDESIGN?node-id=0-1&t=QEw04xjLIrYh1qHE-1",
   },
   {
     id: 4,
@@ -48,7 +48,7 @@ const projectsData = [
     image: "/images/viratposter.png",
     tag: ["All", "Poster"],
     gitUrl: "https://www.behance.net/gallery/199769559/VIRAT-KOHLI-POSTER-DESIGN-%28GRAYSCALE%29",
-    previewUrl: "/",
+    previewUrl: "https://www.figma.com/design/GcuhJb5rRUczi6LVqcwVt6/VK-POSTER?node-id=0-1&t=cyDWprstVHFsGVCR-1",
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const projectsData = [
     image: "/images/atm.png",
     tag: ["All", "Web"],
     gitUrl: "https://www.behance.net/gallery/189740479/ATM-SYSTEM-UI-PROTOTYPE",
-    previewUrl: "/",
+    previewUrl: "https://www.figma.com/design/KEQz7kuo1jfMxCWcrmBbGl/ATM-SYSTEM-SIMULATION?node-id=0-1&t=ih5JAAVrBrwk94Pn-1",
   },
   {
     id: 7,
@@ -66,7 +66,7 @@ const projectsData = [
     image: "/images/kuffee.png",
     tag: ["All", "Web", "Mobile"],
     gitUrl: "https://www.behance.net/gallery/189561607/KUFFEE-CAFE-DESIGN-CONCEPT-by-Akhilesh-P-S",
-    previewUrl: "/",
+    previewUrl: "https://www.figma.com/design/5xCCxvjnVV8OtVOmRBXa4A/Untitled?node-id=0-1&t=DMnVouw97iHpAKDd-1",
   },
   {
     id: 8,
@@ -75,7 +75,7 @@ const projectsData = [
     image: "/images/W&T.png",
     tag: ["All", "Web"],
     gitUrl: "https://www.behance.net/gallery/182843547/Wildlife-and-Tourism-Slide-IDEAS",
-    previewUrl: "/",
+    previewUrl: "https://www.figma.com/design/5skOWIwEZ6yd80Fr0nxD45/wildlife-and-tourism?node-id=0-1&t=Lfav1kXgewxmZaUL-1",
   },
   {
     id: 9,
@@ -93,7 +93,16 @@ const projectsData = [
     image: "/images/pharma-mockup.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://www.behance.net/gallery/191803761/PharmaMedical-App",
-    previewUrl: "/",
+    previewUrl: "https://www.figma.com/design/XL11ZZUFM85go2IvqxUILD/pharma-app?node-id=0-1&t=QoWptW1dznJbhhti-1",
+  },
+  {
+    id: 11,
+    title: "EatFeast - Online Food Ordering App",
+    description: "My first MERN Stack Application in development. This is an ongoing project, completing it at my own pace.",
+    image: "/images/Eatfeast.png",
+    tag: ["All", "Development"],
+    gitUrl: "https://github.com/Wickeshhh/EatFeast",
+    previewUrl: "https://github.com/Wickeshhh/EatFeast",
   }
 ];
 
@@ -121,7 +130,7 @@ const ProjectsSection = () => {
         My Projects
       </h2>
       <p className="text-center text-2xl font-regular text-white mt-3 mb-8 md:mb-10">
-        Here are my projects and some design challenges I have worked on. Only looking to get better day by day! <br /> Updating this section regularly! Most projects are in my Behance. <br />Reach out for the figma link!
+        Here are my projects and some design challenges I have worked on. Only looking to get better day by day! <br /> Updating this section regularly! Most projects are in my Behance.
       </p>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
@@ -142,6 +151,11 @@ const ProjectsSection = () => {
         <ProjectTag
           onClick={handleTagChange}
           name="Poster"
+          isSelected={tag === "Poster"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Development"
           isSelected={tag === "Poster"}
         />
       </div>
